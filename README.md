@@ -12,5 +12,5 @@ No idea what "machine numbers" are, will attempt to implement correctly during t
 
 ```shell
 docker-compose up --build --detach
-npx prisma migrate dev —name init
+npx prisma migrate dev --name init
 ```
