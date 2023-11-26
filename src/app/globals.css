@@ -6,6 +6,8 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --secondary-fcl-hex: #796038;
+  --primary-fcl-hex: #131516;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,4 +26,29 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+.bg-fcl-primary {
+  background-color: var(--primary-fcl-hex);
+}
+
+.bg-fcl-secondary {
+  background-color: var(--secondary-fcl-hex);
+}
+
+.border-fcl {
+  --tw-border-opacity: 1;
+  border-color: var(--secondary-fcl-hex);
+}
+
+h1 {
+  font-size: 26px;
+}
+
+input, select {
+  @apply rounded h-10 px-2 text-black;
+}
+
+button {
+  @apply rounded h-10;
 }
