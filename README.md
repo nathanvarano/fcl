@@ -123,7 +123,7 @@ Other High Availability (HA) options
 In addition to the above services, logging, monitoring and debugging tools can be used to increase efficiency in terms of solving any problems that may arise to bring instances back online as soon as possible.This includes tools such as Elastic Beanstalk, CloudWatch, etc.
 
 
-Implement S3 (Simple Storage Service)
+### Implement S3 (Simple Storage Service)
 To make sure data is still accessible both during and after disaster, we can implement AWS S3, for storing backups and crucial data, making it a perfect option for DR.
 
 Creating a bucket is simple, and can be done with the AWS CLI as follows:
